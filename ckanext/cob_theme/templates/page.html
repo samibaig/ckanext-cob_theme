@@ -10,7 +10,7 @@
         <a href="{{ h.url_for('/') }}" class="menu__link">{{ _('Home') }}</a>
       </li>
       <li class="menu__item is-leaf first leaf secondary-menu-item">
-        <a href="https://www.boston.gov/" class="menu__link" target="_blank">{{ _('Boston.gov') }}</a>
+        <a href="https://data.beta.nyc/" class="menu__link" target="_blank">{{ _('BetaNYC') }}</a>
       </li>
 
       <div class="side-nav-account">
@@ -53,7 +53,6 @@
                           <span class="text">{{ _('Log out') }}</span>
                         </a>
                       </li>
-                      </li>
                     {% endblock %}
                   {% endblock %}
                 </ul>
@@ -77,9 +76,6 @@
         <a href="/showcase" class="menu__link">{{ _('Showcases') }}</a>
       </li>
       <li class="menu__item is-leaf first leaf secondary-menu-item">
-        <a href="https://www.boston.gov/news?title=&field_contact_target_id%5B%5D=1691&field_published_date_value%5Bmin%5D%5Bdate%5D=&field_published_date_value%5Bmax%5D%5Bdate%5D=" class="menu__link" target="_blank">{{ _('News') }}</a>
-      </li>
-      <li class="menu__item is-leaf first leaf secondary-menu-item">
         <a href="{{ h.url_for('search') }}" class="menu__link">{{ _('Datasets') }}</a>
       </li>
       <li class="menu__item is-leaf leaf secondary-menu-item">
@@ -87,9 +83,6 @@
       </li>
       <li class="menu__item is-leaf leaf secondary-menu-item">
         <a href="{{ h.url_for('group_index') }}" class="menu__link">{{ _('Topics') }}</a>
-      </li>
-      <li class="menu__item is-leaf leaf secondary-menu-item">
-        <a href="/pages/ckan-training-videos">{{ _('Tips for Users') }}</a>
       </li>
       <li class="menu__item is-leaf leaf secondary-menu-item">
         <a href="{{ h.url_for('about') }}" class="menu__link">{{ _('About') }}</a>
