@@ -1,6 +1,9 @@
 {% set title = g.site_title %}
 {% set intro = g.site_intro_text %}
 
+{% if 'heroslideradmin' in g.plugins %}
+  {% snippet 'home/snippets/hero_slider.html' %}
+{% else %}
 <div role="main" class="hero">
   <div id="content" tabindex="-1" style="display:none"></div>
   <div class="container">
@@ -15,6 +18,8 @@
     {% endblock %}
   </div>
 </div>
+{% endif %}
+
 <div>
   {% if h.cob_theme_get_showcases() %}
   <div class="main-featured">
