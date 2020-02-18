@@ -258,7 +258,7 @@ ul.menu {
   width: auto;
 }
 .browse-group:hover {
-  background-color: #288be4;
+  background-color: #1c82bc;
   color: #fff;
   opacity: 1;
   text-decoration: none;
@@ -311,8 +311,8 @@ ul.menu {
   padding: 4px 12px;
 }
 .btn-primary, .btn-success, .btn-success:hover, .btn-success:active {
-  background-color: #288BE4;
-  border: 1px solid #288BE4;
+  background-color: #1c82bc;
+  border: 1px solid #1c82bc;
   color: #ffffff;
   text-shadow: none;
 }
@@ -482,7 +482,7 @@ ul.menu {
   padding: 20px 20px 30px;
 }
 .filtered.pill {
-  background-color: #288BE4;
+  background-color: #1c82bc;
 }
 .form-actions {
   text-align: right;
@@ -585,7 +585,7 @@ ul.menu {
   text-decoration: none;
 }
 .homepage .main-browse h2 a:hover {
-  color: #288be4;
+  color: #1c82bc;
 }
 .homepage .module-search {
   background-color: transparent;
@@ -727,7 +727,7 @@ input:-ms-input-placeholder {
 .masthead .navbar .nav-pills li.active a,
 .masthead a:hover {
   background-color: transparent;
-  color: #288BE4;
+  color: #1c82bc;
 }
 .masthead .navbar .nav-pills li a.s:hover,
 .masthead .navbar .nav-pills li.active a.s,
@@ -784,7 +784,7 @@ input:-ms-input-placeholder {
   width: 189px;
 }
 .media-item:hover {
-  background-color: #288BE4;
+  background-color: #1c82bc;
 }
 .media-item:hover .media-heading,
 .media-item:hover .count,
@@ -830,7 +830,7 @@ input:-ms-input-placeholder {
   font-style: italic;
 }
 .media-item h3 {
-  color: #288BE4;
+  color: #1c82bc;
   font-family: Lora;
   font-size: 25px;
   font-style: italic;
@@ -1054,7 +1054,7 @@ header .navbar .nav>li>a {
   text-decoration: none;
 }
 .showcase-container h2 a:hover {
-  color: #288be4;
+  color: #1c82bc;
 }
 .showcase-container .heading,
 .main-browse .heading,
@@ -1065,7 +1065,7 @@ header .navbar .nav>li>a {
     font-size: 30px;
 }
 .challenge h2 a {
-    border-bottom: 5px solid #288be4;
+    border-bottom: 5px solid #1c82bc;
 }
 .simple-input .field .btn-search {
   color: #555555;
@@ -1891,7 +1891,7 @@ header .navbar .nav>li>a {
   color: #767676;
 }
 .module .pagination li.active a {
-  background-color: #288be4;
+  background-color: #1c82bc;
   color: #091f2f;
   border-right: 3px solid #091f2f;
 }
@@ -2054,7 +2054,7 @@ header .navbar .nav>li>a {
   top: 0;
 }
 header .nav-trigger {
-  background-color: #288BE4;
+  background-color: #1c82bc;
   color: #fff;
   cursor: pointer;
   overflow: hidden;
@@ -2084,7 +2084,7 @@ label.nav-trigger:after {
   text-align: center;
 }
 .main-navigation a {
-  background-color: #288be4;
+  background-color: #1c82bc;
   color: #fff;
   display: block;
   font-family: "Montserrat", sans-serif;
@@ -2216,7 +2216,7 @@ label.nav-trigger:after {
   font-size: 30px;
 }
 .main-updates li.dataset-item:hover {
-  background-color: #288be4;
+  background-color: #1c82bc;
 }
 .main-updates li.dataset-item:hover .dataset-heading a {
   color: #ffffff;
@@ -2513,8 +2513,8 @@ section.module-resource p.muted.ellipsis {
   margin-bottom: 30px;
 }
 .c3-shape.c3-bar {
-  stroke: #288BE4;
-  fill: #288BE4;
+  stroke: #1c82bc;
+  fill: #1c82bc;
   opacity: 1;
 }
 .ckanext-showcase-image-container {
