@@ -2289,12 +2289,10 @@ table tr:not(:last-child) th {
   border-bottom: 1px solid #fff;
 }
 footer {
-  background: url(/img/b-logo-light.svg) no-repeat 1.75em center #091f2f;
   padding: 1.75em 0 1.75em 6em;
   color: #fff;
 }
 footer.site-footer {
-  background: url(/img/b-logo-light.svg) no-repeat 1.75em center #091f2f;
   padding: 0.5em 0 0 6em;
   color: #fff;
   background-size: 54px 90px;
