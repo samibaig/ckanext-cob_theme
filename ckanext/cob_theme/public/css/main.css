@@ -820,8 +820,6 @@ input:-ms-input-placeholder {
   text-align: center;
 }
 .media-item.organization-item-list .media-image {
-  width: 126px;
-  height: 126px;
 }
 .media-item strong,
 .dataset-list .dataset-heading,
@@ -2572,11 +2570,12 @@ section.tags h3 {
 #recent-list .dataset-item .dataset-content img {
   max-width: 150px;
   float: left;
-  margin-top: 38px;
+  margin-top: 10px;
 }
 .dataset-list-left-icon {
   max-width: 120px;
   float: left;
+    margin-top: -10px;
 }
 #field-order-by-stylable a,
 .dropdown a:visited {
